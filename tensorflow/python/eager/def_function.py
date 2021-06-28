@@ -1035,7 +1035,7 @@ class Function(object):
       def f(x):
         return x + 1
 
-      f.experimental_get_compiler_ir(tf.random.normal([10, 10])(stage='hlo')
+      f.experimental_get_compiler_ir(tf.random.normal([10, 10]))(stage='hlo')
       ```
 
       the output is:
